@@ -1,0 +1,6 @@
+[submodule "autoware_msgs"]
+	path = autoware_msgs
+	url = https://github.com/autowarefoundation/autoware_msgs.git
+[submodule "src/autoware_msgs"]
+	path = src/autoware_msgs
+	url = https://github.com/autowarefoundation/autoware_msgs.git
