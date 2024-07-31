@@ -40,7 +40,6 @@
   <!-- Autoware Object Visualizer (if you have the `lgsvl_utils` pkg, or you can use the official Autoware one) -->
   <!-- <node ns="/obstacle_detector" pkg="lgsvl_utils" type="detected_objects_visualizer" name="autoware_objects_visualizer" output="log" /> -->
 
-  <!-- Rviz 
+  <!-- Rviz -->
   <node type="rviz" name="rviz" pkg="rviz" args="-d $(find lidar_obstacle_detector)/rviz/mai_city.rviz" output="log" respawn="true" />
-  -->
 </launch>
