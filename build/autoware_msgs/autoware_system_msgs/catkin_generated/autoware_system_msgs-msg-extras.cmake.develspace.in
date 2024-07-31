@@ -1,2 +1,0 @@
-set(autoware_system_msgs_MESSAGE_FILES "/home/mist/reu_ws/src/autoware_msgs/autoware_system_msgs/msg/DiagnosticStatus.msg;/home/mist/reu_ws/src/autoware_msgs/autoware_system_msgs/msg/DiagnosticStatusArray.msg;/home/mist/reu_ws/src/autoware_msgs/autoware_system_msgs/msg/HardwareStatus.msg;/home/mist/reu_ws/src/autoware_msgs/autoware_system_msgs/msg/NodeStatus.msg;/home/mist/reu_ws/src/autoware_msgs/autoware_system_msgs/msg/SystemStatus.msg")
-set(autoware_system_msgs_SERVICE_FILES "")
