@@ -1,0 +1,21 @@
+<launch>
+    <node name="obstacle_detector_node" pkg="lidar_obstacle_detector" type="obstacle_detector_node" output="screen">
+        <!-- Input Topic Names -->
+        <param name="lidar_points_topic"                  value="/rslidar_points"/>
+        <!-- Output Topic Names -->
+        <param name="cloud_ground_topic"                  value="obstacle_detector/cloud_ground"/>
+        <param name="cloud_clusters_topic"                value="obstacle_detector/cloud_clusters"/>
+        <param name="jsk_bboxes_topic"                    value="obstacle_detector/jsk_bboxes"/>
+        <param name="autoware_objects_topic"              value="obstacle_detector/objects"/>
+        <!-- Parameters -->
+        <param name="bbox_target_frame"                   value="velodyne"/>
+    </node>
+
+    <!-- Include the camera launch file -->
+    <include file="$(find darknet_ros)/launch/darknet_ros.launch" />
+
+    <!-- Dynamic Reconfigure GUI -->
+    <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen" />
+  
+</launch>
+

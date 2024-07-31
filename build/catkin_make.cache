@@ -1,0 +1,2 @@
+autoware_msgs/autoware_can_msgs:autoware_msgs/autoware_config_msgs:autoware_msgs/autoware_external_msgs:autoware_msgs/autoware_lanelet2_msgs:autoware_msgs/autoware_map_msgs:autoware_msgs/autoware_msgs:autoware_msgs/autoware_system_msgs:autoware_msgs/tablet_socket_msgs:autoware_msgs/vector_map_msgs:darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:lidar_obstacle_detector
+-DCATKIN_DEVEL_PREFIX=/home/mist/reu_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mist/reu_ws/install -G Unix Makefiles

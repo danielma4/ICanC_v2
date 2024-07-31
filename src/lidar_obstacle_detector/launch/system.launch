@@ -1,0 +1,8 @@
+<launch>
+    <!-- Include the LiDAR launch file -->
+    <include file="$(find lidar_obstacle_detector)/launch/lidar.launch" />
+
+    <!-- Include the camera launch file -->
+    <include file="$(find darknet_ros)/launch/darknet_ros.launch" />
+</launch>
+
