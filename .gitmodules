@@ -1,6 +1,7 @@
 [submodule "autoware_msgs"]
 	path = autoware_msgs
 	url = https://github.com/autowarefoundation/autoware_msgs.git
-[submodule "src/autoware_msgs"]
-	path = src/autoware_msgs
-	url = https://github.com/autowarefoundation/autoware_msgs.git
+	
+[submodule "/home/mist/reu_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/kalman-cpp"]
+	path = /home/mist/reu_ws/src/lidar_obstacle_detector/include/lidar_obstacle_detector/kalman-cpp
+	url = https://github.com/hmartiro/kalman-cpp.git
