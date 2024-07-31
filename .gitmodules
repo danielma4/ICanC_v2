@@ -4,3 +4,6 @@
 [submodule "kalman-cpp"]
 	path = src/lidar_obstacle_detector/include/lidar_obstacle_detector/kalman-cpp
 	url = https://github.com/hmartiro/kalman-cpp.git
+[submodule "src/darknet_ros"]
+	path = src/darknet_ros
+	url = https://github.com/danielma4/darknet_ros.git
