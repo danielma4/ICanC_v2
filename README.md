@@ -1,4 +1,4 @@
-# ICanC: Improving Camera-based Object Detection and Energy Conservation in Low-Illumination Environments (UD REU Project)
+# ICanC: Improving Camera-based Object Detection and Energy Conservation in Low-Illumination Environments
 
 ## Table of Contents
 - [Introduction](#introduction)
